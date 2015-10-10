@@ -86,5 +86,4 @@ pred = custom_heuristic('data/test.csv')
 # pred_list = [(v,k) for v,k in pred.items()]
 pred_df = pd.DataFrame(list(pred.items()), columns=['PassengerID', 'Survived'])
 
-# pred_df.to_csv('results.csv', index=False)
-print(pred_df.describe())
+pred_df.to_csv('Udacity_test.csv', index=False)

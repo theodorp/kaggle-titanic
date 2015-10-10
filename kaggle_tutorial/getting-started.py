@@ -42,4 +42,4 @@ df = df.drop(['Name', 'Sex', 'Ticket', 'Cabin', 'Embarked', 'Age'], axis=1)
 # train_data = df.values
 # df_column_names = list(df.columns.values)
 
-df.to_csv('cleaned_test_data1.csv', index=False)
+df.to_csv('cleaned_test_data.csv', index=False)
